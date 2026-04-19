@@ -1,0 +1,7184 @@
+{
+  "exact": {
+    "micro": {
+      "persona": {
+        "precision": 0.42857142857142855,
+        "recall": 0.625,
+        "f1": 0.5084745762711864,
+        "tp": 15,
+        "fp": 20,
+        "fn": 9
+      },
+      "luogo": {
+        "precision": 0.2976878612716763,
+        "recall": 0.3259493670886076,
+        "f1": 0.311178247734139,
+        "tp": 103,
+        "fp": 243,
+        "fn": 213
+      },
+      "evento": {
+        "precision": 0.3448275862068966,
+        "recall": 0.38461538461538464,
+        "f1": 0.3636363636363637,
+        "tp": 50,
+        "fp": 95,
+        "fn": 80
+      },
+      "overall": {
+        "precision": 0.3193916349809886,
+        "recall": 0.3574468085106383,
+        "f1": 0.3373493975903614,
+        "tp": 168,
+        "fp": 358,
+        "fn": 302
+      }
+    },
+    "errors": {
+      "false_positives": [
+        {
+          "doc_id": "statCom_libro2_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazzo de lu populo de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "lu rectore de la terra"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica19",
+          "entity": {
+            "type": "luogo",
+            "text": "Appognano"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica19",
+          "entity": {
+            "type": "luogo",
+            "text": "lu dicto castello"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "festa de la venerabile et sancta Spina"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "Natività de nostro signore Yeshu Christo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "Pasqua epiphania de lo Signore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "Penthecoste"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "festa del Corpo di Christo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "dì de venardì de marzo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "tempo de la quadragesima"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancte domeniche"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sabato da hora de nona inante"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "tempo de la messura et de le vendemmie"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "tempo de publico exercito overo de cavalcate"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "tempi ne li quali le ferie repentine serrà indicte overo ordinate"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "venardì"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica26",
+          "entity": {
+            "type": "luogo",
+            "text": "lu libro de le reformanze"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "Guallo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "Larhenqua"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "lu fiume de Castellano"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "Trunto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "Chiaro"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "la porta de Summa"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "le piaze de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica35",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "evento",
+            "text": "Natale del nostro signore Jesu Cripsto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "evento",
+            "text": "carnassale"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Migno"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica74",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palactio del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica81",
+          "entity": {
+            "type": "persona",
+            "text": "miser Johanni de Vindibene"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica85",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica85",
+          "entity": {
+            "type": "luogo",
+            "text": "loco de frati"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica99",
+          "entity": {
+            "type": "evento",
+            "text": "feste principali"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica106",
+          "entity": {
+            "type": "luogo",
+            "text": "castelli posti ne lo districto de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica106",
+          "entity": {
+            "type": "luogo",
+            "text": "le dicte castella"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica106",
+          "entity": {
+            "type": "luogo",
+            "text": "epse castella"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica106",
+          "entity": {
+            "type": "luogo",
+            "text": "ne li loro casarini"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica116",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica116",
+          "entity": {
+            "type": "luogo",
+            "text": "lu loco de Sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica116",
+          "entity": {
+            "type": "evento",
+            "text": "lu tempo del pagamento de la dicta quantità"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica7",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia de Sancto Michele de li Furuni da lu Monte"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica7",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia katedrale de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Ponte majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Pedi de le chiaviche"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Capo le chiaviche"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Blaxio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "la Cannera"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Pede la ringa"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "la Piaza"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia de Sancta Maria inter le vigne"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Ponte majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Petro Adammo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Christofaro"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancta Maria"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Anastasio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Venanzo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "porta Romana"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Castellano"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Secte Soglie"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Venantio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "quarterio de Sancta Maria"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "vigna de sopra"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "porta Romana"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "porta Romana"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Laco"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "ponte Solestane"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Pede de lu merchato"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Ponte majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Pedro de Adammo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Ponte majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Petro de Adammo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica24",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica24",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "la sachristia de lu locho de li frati Minuri"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "la dicta ciptade"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo de li signuri antiani"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "lu officiale del capitanio del populo de la dicta ciptade"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "lu dicto libro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia de la ciptà d'Ascoli"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Petre"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "sextero"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Emindio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo de l'aringha"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "papa"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "cardinale"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "re"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "marchese"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "Senuctio de Angneluctio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "Senuctio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo de la arhengua"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "evento",
+            "text": "sancte Dei evagnelia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "la sacra et sancta Romana Ecdesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "persona",
+            "text": "li signuri summi pontifici"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "lu sacro collegio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "persona",
+            "text": "soi fratelli cardinali"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica4",
+          "entity": {
+            "type": "evento",
+            "text": "sexteri de Sancto Anastasio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "Pedi"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "monte Cretaccio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "monte Calvo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Cagnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Acqua Sancta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sanloparia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia Romana"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancta Maria inter vigna"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Venanzo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancta Maria inter le vigne"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Venanço"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Eclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "Appugnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "monte Sancto Poli de Tronto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "castella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "rocche"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "evento",
+            "text": "lu venire loro a lu regimento de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "Monte Paxillo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "l'Acqua Santa"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "ciptà d'Ascoli"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "comunanza"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "castella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "persona",
+            "text": "Petro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "persona",
+            "text": "Paulo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "persona",
+            "text": "sancto Emindio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "evento",
+            "text": "lu advento de ipso potestà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "Romana Eclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "Marcha d'Anchona"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "persona",
+            "text": "serenissimo et illustre principe et de reale majestà, signore, re per la gratia de Dio de Yerusalem et de Sciscilia re"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "Yerusalem"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "Sciscilia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "la piaza de sopra de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo del populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica33",
+          "entity": {
+            "type": "luogo",
+            "text": "statuti del dicto castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "la Pescara"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "l'Amatrice"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "Tenda"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica58",
+          "entity": {
+            "type": "luogo",
+            "text": "Perosia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica62",
+          "entity": {
+            "type": "luogo",
+            "text": "fortelleçe de lu comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "lu loco de li frati de sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica68",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica76",
+          "entity": {
+            "type": "evento",
+            "text": "le feste"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica94",
+          "entity": {
+            "type": "persona",
+            "text": "Andreiuctio de Petri da Monte Moro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "Monte Moro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia Romana"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castelle de lu districto de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "monte Cretaccio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Petro in Erreto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Apognano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "la Ripa Berarda"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Capradosso"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "monte Moro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "la Collina de la Fornace"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Portella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Casalena"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Coloto Novo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "lu Pojo de li Paganelli"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de la Natale de lu nostro Signore Jesu Cripsto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de la Circuncisione del dicto Signore Jesu Cripsto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de la Pascha de la Epiphania"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de la Pascha de la rexurrectione del nostro Signore Jesu Cripsto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de l'Ascentione de lu dicto Signore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de Pascha de la Penthecosta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de lu Corpo de Cripsto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Salvatore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "tucte le feste de la beata Maria vergene"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "tucte le feste principali de li apostoli et de li evagnelista"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "lu dì de venardì sancto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de lu beato Emindio vescovo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Benedicto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de tucti li sancti"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Lodovico"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Dominico"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Venantio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Leonardo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancta Croce"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Nicolò"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Blaxio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Ambrosio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Hieronimo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Gregorio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Silvestro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa del sancto abate Benedicto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Ilio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Honofrio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Pangratio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Laurenzio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "le feste de la natività et decollatione del beato Johanne Baptista"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Georgio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Michaele"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa del sancto Angnelo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Martino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancta Maria Magdalena"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancta Lucia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancta Margharita"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancta Catharina"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancta Aghata"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "tucte le feste"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "lu tempo de la messura"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "de le vendembie"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de lu beato Emindio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "dicte feste"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "dì de sabato"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica2",
+          "entity": {
+            "type": "evento",
+            "text": "feste de la beata Maria vergine"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica2",
+          "entity": {
+            "type": "evento",
+            "text": "feste principale de li apostoli"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "sancto Petre martire"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "sancto Dominico"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "evento",
+            "text": "festa de lu beato Emindio martiro et confessore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia majore del viscovato"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "evento",
+            "text": "festa"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "porta Romana"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "lu arrengho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "porta Romana"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "arengho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica9",
+          "entity": {
+            "type": "luogo",
+            "text": "lu loco de li frati de Sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica9",
+          "entity": {
+            "type": "evento",
+            "text": "dicta festa"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica9",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia de lu dicto loco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "persona",
+            "text": "beato Emindio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "terre"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castelli"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "persona",
+            "text": "monsegnore lu viscovo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "persona",
+            "text": "lu archidiacono"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "persona",
+            "text": "li canonici"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "l'Amatrice"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Arquata"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "monte Sancto Mari Incallo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "monte Lumonacho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Forcia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Patregnone"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Porchia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Cosignano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Castegnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Rotella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Quinto Decimo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "Rovetino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "Castorano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de lu comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "ponte Maiore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "ponte Tofillo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "ponte Solestano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "lu Monte"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Spirito"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Torrecelle"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Tornasacco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica24",
+          "entity": {
+            "type": "luogo",
+            "text": "lu beato Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "la piaza de lu populo de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "da li lati de lu dicto palazo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica9",
+          "entity": {
+            "type": "luogo",
+            "text": "Castellano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica9",
+          "entity": {
+            "type": "luogo",
+            "text": "Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "lu fiumo de lu Chiaro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica13",
+          "entity": {
+            "type": "luogo",
+            "text": "Parignano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica20",
+          "entity": {
+            "type": "luogo",
+            "text": "Chiaro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica20",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Nicolò"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica27",
+          "entity": {
+            "type": "luogo",
+            "text": "Paregnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "ponte Solestano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "hospitale"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "Potenza"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica34",
+          "entity": {
+            "type": "luogo",
+            "text": "l'Amatrice"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica37",
+          "entity": {
+            "type": "evento",
+            "text": "festivi de li misi de jugno"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica37",
+          "entity": {
+            "type": "evento",
+            "text": "celebratione de le feste"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica37",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo del populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica49",
+          "entity": {
+            "type": "luogo",
+            "text": "Paregnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica49",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Antonio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica58",
+          "entity": {
+            "type": "luogo",
+            "text": "porte de la ciptà d'Asculi"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica58",
+          "entity": {
+            "type": "luogo",
+            "text": "vie appresso epse porte"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica64",
+          "entity": {
+            "type": "luogo",
+            "text": "Paregnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "Castellano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "Colle"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "funte over cisterne over a li puzi de la ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "le piaze"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "l'arengho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "cimiterj de le ecclesie"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "la ecclesia de Sancta Maria majore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "lu campo de le donne del monastero de Sancto Angnelo grande"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "la contrada de Sancto Venanzio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "lu Piano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "l'orto jà de Angnelo de Martino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "le grocte"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "lu tentorio socta la ecclesia de Sancto Dominico"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "evento",
+            "text": "lu comune uso de li homini"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "fonte de alcuno castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "villa"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "cisterne"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "ponti"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "puçi"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesie"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "Ponte de rivo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "ponte Majore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "lu Capo de le chiaviche"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "lu Pede de le chiaviche"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "Lisiano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "Capo de rivo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "fonte de ponte Majore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "lu rivo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "Pede le chiaveche"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "ponte Majore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "ponte Majore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "cisterna"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica78",
+          "entity": {
+            "type": "luogo",
+            "text": "Ripa Berarda"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica78",
+          "entity": {
+            "type": "luogo",
+            "text": "Salecto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica90",
+          "entity": {
+            "type": "luogo",
+            "text": "Acquasanta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica90",
+          "entity": {
+            "type": "evento",
+            "text": "kalende del mese d'augusto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica90",
+          "entity": {
+            "type": "evento",
+            "text": "kalende del mese de octobre"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "puzo de Rosara"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "evento",
+            "text": "Quintodecimo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "lu castello de Polexio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "lu monte de Polexio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "lu castello de Castiglone"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "Offida"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "lu castello de Castorano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "lu castello de lu monte Santo Polo de Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "lu castello de lu Porto ad mare"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "lu castello de monte Pranduni"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "lu castello de monte Moro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "lu castello de la comunanza de monte Paxillo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "lu castello de Ancharano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica9",
+          "entity": {
+            "type": "luogo",
+            "text": "monte Pranduni"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Acquasancta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica16",
+          "entity": {
+            "type": "luogo",
+            "text": "Acquasancta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica16",
+          "entity": {
+            "type": "evento",
+            "text": "kalende de lu mese de augusto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica16",
+          "entity": {
+            "type": "evento",
+            "text": "kalende de lu mese de novembre"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "persona",
+            "text": "capitanio de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica14",
+          "entity": {
+            "type": "luogo",
+            "text": "Cosignano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica14",
+          "entity": {
+            "type": "luogo",
+            "text": "Porchia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica21",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia"
+          }
+        }
+      ],
+      "false_negatives": [
+        {
+          "doc_id": "statCom_libro2_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "palatio de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica14",
+          "entity": {
+            "type": "luogo",
+            "text": "palatio del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "del beato Migno"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Dominico"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Petro martire"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Angnelo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Michaele arcangelo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Croce"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Nicolò de Vari"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Laurentio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Giorgio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Venantio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Leonardo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Joanni Baptista"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Honofrio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Antonio de Bienda"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Blaxio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Ludovico"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Thomasso d'Aquino"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Petronella"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Lucia"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Katherina"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Agatha"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Maria Magdalena"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Margarita"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "omne sancto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "Natività de nostro signore Yeshu Christo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "Pasqua epiphania de lo Signore tanto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "Penthecoste"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "Corpo di Christo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica51",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo de lu comune d'Ascoli"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica55",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo del dicto comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "palazi de li signori antiani"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica20",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo de lu dicto comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de sopra"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "de socta"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu popolo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "fiume de Castellano"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "de Trunto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "de Chiaro"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "porta de Summa"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica35",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica63",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica63",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "evento",
+            "text": "vigilia de la Natale del nostro signore Jesu Cripsto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "evento",
+            "text": "carnassale"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "evento",
+            "text": "Sancta Spina"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Migno"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de li signori antiani"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de socto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de sopra"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica74",
+          "entity": {
+            "type": "luogo",
+            "text": "palactio del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica81",
+          "entity": {
+            "type": "persona",
+            "text": "Johanni de Vindibene"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu popolo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de li signuri antiani"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "plaça de sopre"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "de socto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "del populo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "de li signuri antiani"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica106",
+          "entity": {
+            "type": "luogo",
+            "text": "valle de Trunto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica114",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica114",
+          "entity": {
+            "type": "luogo",
+            "text": "del populo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica116",
+          "entity": {
+            "type": "luogo",
+            "text": "loco de Sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica7",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia de Sancto Michele"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica7",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia katedrale"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de socto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "quarterio de Sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "porta cioè de Ponte majore de sopra"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sexterio de Pedi de le chiaviche"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sexterio de Capo le chiaviche"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Sancto Blaxio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de la Cannera"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Pede la ringa"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de la Piaza"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancta Maria inter le vigne"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sexterio de Ponte majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Sancto Petro Adammo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Sancto Christofaro"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Sancta Maria"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Sancto Anastasio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Sancto Venanzo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "quarterio de Sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "porta de porta Romana"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "fiume de Castellano"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sexterio de le Grocte"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de le Scaye"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Secte Soglie"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Sancto Venantio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "quartero de Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia su lu vocabile de Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "quarterio de Sancta Maria inter vigna"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "porta de porta Romana"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sexterio de porta Romana"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu Laco"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de ponte Solestane"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "da Pede de lu merchato"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sexterio de Ponte majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sexterio de Ponte majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sexterio de Sancto Pedro de Adammo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sextero de Ponte majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sextero de Sancto Petro de Adammo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica24",
+          "entity": {
+            "type": "persona",
+            "text": "potestate"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "locho de li frati Minuri"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de li signuri antiani"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "quartero de Sancto Emindio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de l'aringha"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "Senuctio de Angneluctio de Ascoli"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "Senuctio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "Senuctio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de la arhengua"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Anastasio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "Pedi lu merchato"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "del monte Cretaccio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de monte Calvo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Cagnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de l'Acqua Sancta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de Sanloparia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica20",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lo arengho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de li signuri antiani"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica24",
+          "entity": {
+            "type": "luogo",
+            "text": "arengho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "palazi del comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "del populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "comunanza de Monte Paxillo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "bagno de l'Acqua Santa"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "palaçi del comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "del populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de sopra de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica43",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo del populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "fiume de la Pescara"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "Amatrice"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "fiume de Tenda"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "quartarola"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "quartarola"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica62",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica66",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "loco de li frati de sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "de li antiani"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "palaçi del commune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica78",
+          "entity": {
+            "type": "luogo",
+            "text": "sachristia de li frati Minuri"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica82",
+          "entity": {
+            "type": "luogo",
+            "text": "palazi de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica82",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica94",
+          "entity": {
+            "type": "persona",
+            "text": "Andreiuctio de Petri da Monte Moro d'Asculi"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de monte Cretaccio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Sancto Petro in Erreto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Apognano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de la Ripa Berarda"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Capradosso"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de monte Moro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de la Collina de la Fornace"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Portella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Casalena"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Coloto Novo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de lu Pojo de li Paganelli"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de la Natale de lu nostro Signore Jesu Cripsto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de la Circuncisione del dicto Signore Jesu Cripsto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de la Pascha de la Epiphania"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de la Pascha de la rexurrectione del nostro Signore Jesu Cripsto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de l'Ascentione de lu dicto Signore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de Pascha de la Penthecosta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de lu Corpo de Cripsto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Salvatore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "feste de la beata Maria vergene"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de lu beato Emindio vescovo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Benedicto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de tucti li sancti"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Lodovico"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Dominico"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Venantio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Leonardo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancta Croce"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Nicolò"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Blaxio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Ambrosio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Hieronimo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Gregorio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Silvestro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa del sancto abate Benedicto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Honofrio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Pangratio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Laurenzio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "feste de la natività et decollatione del beato Johanne Baptista"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Georgio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Michaele"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa del sancto Angnelo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancto Martino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancta Maria Magdalena"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancta Lucia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancta Margharita"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancta Catharina"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de sancta Aghata"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "pascali"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "festa de lu beato Emindio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica2",
+          "entity": {
+            "type": "evento",
+            "text": "festa del venardì sancto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica2",
+          "entity": {
+            "type": "evento",
+            "text": "tucte le feste de la beata Maria vergine"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica2",
+          "entity": {
+            "type": "evento",
+            "text": "tucte le feste principale de li apostoli"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "Pyrromi de Amelia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "evento",
+            "text": "festa de lu beato Emindio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "persona",
+            "text": "carmorlingho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia majore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica9",
+          "entity": {
+            "type": "luogo",
+            "text": "loco de li frati de Sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica11",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "terra de l'Amatrice"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "terra de Arquata"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "terra de monte Sancto Mari Incallo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "terra de monte Lumonacho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Forcia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Patregnone"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Porchia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Cosignano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Castegnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Rotella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Quinto Decimo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Rovetino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Castorano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "porta de ponte Maiore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "porta de ponte Tofillo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "porta de ponte Solestano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "porta de lu Monte"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "porta de Sancto Spirito"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Torrecelle et Tornasacco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lu comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica9",
+          "entity": {
+            "type": "luogo",
+            "text": "fiumo de Castellano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica9",
+          "entity": {
+            "type": "luogo",
+            "text": "de Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "fiumo de lu Chiaro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica13",
+          "entity": {
+            "type": "luogo",
+            "text": "campo de Parignano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica20",
+          "entity": {
+            "type": "luogo",
+            "text": "fiumo de Chiaro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica20",
+          "entity": {
+            "type": "luogo",
+            "text": "rivo de Sancto Nicolò"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica27",
+          "entity": {
+            "type": "luogo",
+            "text": "campo de Paregnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "porta de ponte Solestano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica34",
+          "entity": {
+            "type": "luogo",
+            "text": "terra de l'Amatrice"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica37",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de sopra"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica37",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica42",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de lu sopra de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica44",
+          "entity": {
+            "type": "luogo",
+            "text": "rivo de lu Marino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica49",
+          "entity": {
+            "type": "luogo",
+            "text": "monasterio de Sancto Antonio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica64",
+          "entity": {
+            "type": "luogo",
+            "text": "campo de Paregnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "fiume de Castellano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "fiume de Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "fiume de Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia de Sancta Maria majore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "monastero de Sancto Angnelo grande"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "contrada de Sancto Venanzio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "persona",
+            "text": "Angnelo de Martino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia de Sancto Dominico"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica75",
+          "entity": {
+            "type": "luogo",
+            "text": "contrata de Palarecta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "fonte de ponte Majore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "Capo de le chiaviche"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica78",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Ripa Berarda"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica90",
+          "entity": {
+            "type": "luogo",
+            "text": "bagno de l'Acquasanta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "Quintodecimo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Polexio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "monte de Polexio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica5",
+          "entity": {
+            "type": "luogo",
+            "text": "sextero de lu Capo de le chiaviche"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Castiglone"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Castorano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de lu monte Santo Polo de Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de lu Porto ad mare"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de monte Pranduni"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de monte Moro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de la comunanza de monte Paxillo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Ancharano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica9",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de monte Pranduni"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica16",
+          "entity": {
+            "type": "luogo",
+            "text": "bagno de l'Acquasancta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica18",
+          "entity": {
+            "type": "luogo",
+            "text": "anticha plaza de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica25",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço del comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica25",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica25",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del commune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica25",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica14",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Cosignano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica14",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Porchia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica21",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de sopra"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de la residentia de li signuri antiani"
+          }
+        }
+      ]
+    }
+  },
+  "overlap": {
+    "micro": {
+      "persona": {
+        "precision": 0.5142857142857142,
+        "recall": 0.75,
+        "f1": 0.6101694915254237,
+        "tp": 18,
+        "fp": 17,
+        "fn": 6
+      },
+      "luogo": {
+        "precision": 0.5867052023121387,
+        "recall": 0.6424050632911392,
+        "f1": 0.6132930513595166,
+        "tp": 203,
+        "fp": 143,
+        "fn": 113
+      },
+      "evento": {
+        "precision": 0.6896551724137931,
+        "recall": 0.7692307692307693,
+        "f1": 0.7272727272727274,
+        "tp": 100,
+        "fp": 45,
+        "fn": 30
+      },
+      "overall": {
+        "precision": 0.6102661596958175,
+        "recall": 0.6829787234042554,
+        "f1": 0.6445783132530121,
+        "tp": 321,
+        "fp": 205,
+        "fn": 149
+      }
+    },
+    "errors": {
+      "false_positives": [
+        {
+          "doc_id": "statCom_libro2_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "lu rectore de la terra"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazzo de lu populo de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica19",
+          "entity": {
+            "type": "luogo",
+            "text": "Appognano"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica19",
+          "entity": {
+            "type": "luogo",
+            "text": "lu dicto castello"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "festa de la venerabile et sancta Spina"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "dì de venardì de marzo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "tempo de la quadragesima"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancte domeniche"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sabato da hora de nona inante"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "tempo de la messura et de le vendemmie"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "tempo de publico exercito overo de cavalcate"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "tempi ne li quali le ferie repentine serrà indicte overo ordinate"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "venardì"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica26",
+          "entity": {
+            "type": "luogo",
+            "text": "lu libro de le reformanze"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "Guallo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "Larhenqua"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "le piaze de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica35",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "evento",
+            "text": "carnassale"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica85",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica85",
+          "entity": {
+            "type": "luogo",
+            "text": "loco de frati"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica99",
+          "entity": {
+            "type": "evento",
+            "text": "feste principali"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica106",
+          "entity": {
+            "type": "luogo",
+            "text": "castelli posti ne lo districto de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica106",
+          "entity": {
+            "type": "luogo",
+            "text": "le dicte castella"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica106",
+          "entity": {
+            "type": "luogo",
+            "text": "epse castella"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica106",
+          "entity": {
+            "type": "luogo",
+            "text": "ne li loro casarini"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica116",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica116",
+          "entity": {
+            "type": "evento",
+            "text": "lu tempo del pagamento de la dicta quantità"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Ponte majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "vigna de sopra"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "Laco"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica24",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica24",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "la dicta ciptade"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "lu officiale del capitanio del populo de la dicta ciptade"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "lu dicto libro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "papa"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "cardinale"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "re"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "marchese"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "Senuctio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia de la ciptà d'Ascoli"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Petre"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "sextero"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Emindio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "persona",
+            "text": "li signuri summi pontifici"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "persona",
+            "text": "soi fratelli cardinali"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "la sacra et sancta Romana Ecdesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "lu sacro collegio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "evento",
+            "text": "sancte Dei evagnelia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "Pedi"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica4",
+          "entity": {
+            "type": "evento",
+            "text": "sexteri de Sancto Anastasio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia Romana"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancta Maria inter vigna"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancta Maria inter le vigne"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Venanço"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Venanzo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Eclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "Appugnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "castello del monte Sancto Poli de Tronto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "castella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "rocche"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "ciptà d'Ascoli"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "comunanza"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "castella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "evento",
+            "text": "lu venire loro a lu regimento de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "persona",
+            "text": "Petro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "persona",
+            "text": "Paulo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "persona",
+            "text": "sancto Emindio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "persona",
+            "text": "serenissimo et illustre principe et de reale majestà, signore, re per la gratia de Dio de Yerusalem et de Sciscilia re"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "Romana Eclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "Marcha d'Anchona"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "Yerusalem"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "Sciscilia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "evento",
+            "text": "lu advento de ipso potestà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica33",
+          "entity": {
+            "type": "luogo",
+            "text": "statuti del dicto castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "Tenda"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica58",
+          "entity": {
+            "type": "luogo",
+            "text": "Perosia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica62",
+          "entity": {
+            "type": "luogo",
+            "text": "fortelleçe de lu comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica68",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica76",
+          "entity": {
+            "type": "evento",
+            "text": "le feste"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "Monte Moro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia Romana"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castelle de lu districto de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Apognano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Capradosso"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "monte Moro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Portella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Casalena"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "Coloto Novo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "tucte le feste principali de li apostoli et de li evagnelista"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "lu dì de venardì sancto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "la festa de sancto Ilio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "tucte le feste"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "lu tempo de la messura"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "de le vendembie"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "dicte feste"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "dì de sabato"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "sancto Petre martire"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "sancto Dominico"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "porta Romana"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "lu arrengho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "porta Romana"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "arengho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "evento",
+            "text": "festa"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica9",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia de lu dicto loco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica9",
+          "entity": {
+            "type": "evento",
+            "text": "dicta festa"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "persona",
+            "text": "beato Emindio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "persona",
+            "text": "monsegnore lu viscovo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "persona",
+            "text": "lu archidiacono"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "persona",
+            "text": "li canonici"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "terre"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castelli"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Arquata"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Forcia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Patregnone"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Porchia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Cosignano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Castegnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "Rotella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "Rovetino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "Castorano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de lu comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "lu Monte"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Torrecelle"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Tornasacco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica24",
+          "entity": {
+            "type": "luogo",
+            "text": "lu beato Francisco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "la piaza de lu populo de la dicta ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "da li lati de lu dicto palazo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica20",
+          "entity": {
+            "type": "luogo",
+            "text": "Chiaro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "hospitale"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "Potenza"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica37",
+          "entity": {
+            "type": "evento",
+            "text": "festivi de li misi de jugno"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica37",
+          "entity": {
+            "type": "evento",
+            "text": "celebratione de le feste"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica49",
+          "entity": {
+            "type": "luogo",
+            "text": "Paregnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica49",
+          "entity": {
+            "type": "evento",
+            "text": "Sancto Antonio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica58",
+          "entity": {
+            "type": "luogo",
+            "text": "porte de la ciptà d'Asculi"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica58",
+          "entity": {
+            "type": "luogo",
+            "text": "vie appresso epse porte"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "Colle"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "funte over cisterne over a li puzi de la ciptà"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "le piaze"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "l'arengho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "cimiterj de le ecclesie"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "lu Piano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "l'orto jà de Angnelo de Martino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "le grocte"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "fonte de alcuno castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "villa"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "cisterne"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "ponti"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "puçi"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesie"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "evento",
+            "text": "lu comune uso de li homini"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "Ponte de rivo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "lu Pede de le chiaviche"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "Lisiano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "Capo de rivo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "fonte de ponte Majore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "lu rivo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "Pede le chiaveche"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "ponte Majore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "fonte de ponte Majore"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "cisterna"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica78",
+          "entity": {
+            "type": "luogo",
+            "text": "Salecto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica90",
+          "entity": {
+            "type": "luogo",
+            "text": "Acquasanta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica90",
+          "entity": {
+            "type": "evento",
+            "text": "kalende del mese d'augusto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica90",
+          "entity": {
+            "type": "evento",
+            "text": "kalende del mese de octobre"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "puzo de Rosara"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "castello"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "evento",
+            "text": "Quintodecimo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica6",
+          "entity": {
+            "type": "luogo",
+            "text": "Offida"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "bagno de l'Acquasancta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica16",
+          "entity": {
+            "type": "evento",
+            "text": "kalende de lu mese de augusto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica16",
+          "entity": {
+            "type": "evento",
+            "text": "kalende de lu mese de novembre"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "persona",
+            "text": "capitanio de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "lu palazo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica14",
+          "entity": {
+            "type": "luogo",
+            "text": "Cosignano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica14",
+          "entity": {
+            "type": "luogo",
+            "text": "Porchia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica21",
+          "entity": {
+            "type": "luogo",
+            "text": "Ecclesia"
+          }
+        }
+      ],
+      "false_negatives": [
+        {
+          "doc_id": "statCom_libro2_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "palatio de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica14",
+          "entity": {
+            "type": "luogo",
+            "text": "palatio del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "del beato Migno"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Francisco"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Dominico"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Petro martire"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Angnelo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Michaele arcangelo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Croce"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Nicolò de Vari"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Laurentio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Giorgio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Venantio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Leonardo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Joanni Baptista"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Honofrio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Antonio de Bienda"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Blaxio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Ludovico"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancto Thomasso d'Aquino"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Petronella"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Lucia"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Katherina"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Agatha"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Maria Magdalena"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "sancta Margarita"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica40",
+          "entity": {
+            "type": "evento",
+            "text": "omne sancto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica51",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo de lu comune d'Ascoli"
+          }
+        },
+        {
+          "doc_id": "statCom_libro2_rubrica55",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo del dicto comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "palazi de li signori antiani"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica20",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo de lu dicto comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de sopra"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "de socta"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica31",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu popolo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica35",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Augustino"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica63",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica63",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lu comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de li signori antiani"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de socto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de sopra"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "evento",
+            "text": "carnassale"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica70",
+          "entity": {
+            "type": "evento",
+            "text": "Sancta Spina"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu popolo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de li signuri antiani"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "plaça de sopre"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "de socto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "del populo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "de li signuri antiani"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica106",
+          "entity": {
+            "type": "luogo",
+            "text": "valle de Trunto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica114",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statCom_libro3_rubrica114",
+          "entity": {
+            "type": "luogo",
+            "text": "del populo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de socto"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "quarterio de Sancto Emidio"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "porta cioè de Ponte majore de sopra"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sexterio de le Grocte"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de le Scaye"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "quartero de Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "ecclesia su lu vocabile de Sancto Jacobo"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu Laco"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica15",
+          "entity": {
+            "type": "luogo",
+            "text": "sexterio de Ponte majore"
+          }
+        },
+        {
+          "doc_id": "statCom_libro4_rubrica24",
+          "entity": {
+            "type": "persona",
+            "text": "potestate"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "Senuctio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "Senuctio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "quartero de Sancto Emindio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica3",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "Sancto Anastasio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica4",
+          "entity": {
+            "type": "luogo",
+            "text": "Pedi lu merchato"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica20",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lo arengho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de li signuri antiani"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica24",
+          "entity": {
+            "type": "luogo",
+            "text": "arengho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "palazi del comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica29",
+          "entity": {
+            "type": "luogo",
+            "text": "del populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "palaçi del comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica32",
+          "entity": {
+            "type": "luogo",
+            "text": "del populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica43",
+          "entity": {
+            "type": "luogo",
+            "text": "palazzo del populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "fiume de Tenda"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "quartarola"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica57",
+          "entity": {
+            "type": "luogo",
+            "text": "quartarola"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica62",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica66",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica70",
+          "entity": {
+            "type": "luogo",
+            "text": "de li antiani"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "palaçi del commune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica77",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica78",
+          "entity": {
+            "type": "luogo",
+            "text": "sachristia de li frati Minuri"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica82",
+          "entity": {
+            "type": "luogo",
+            "text": "palazi de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica82",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Apognano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Capradosso"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de monte Moro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Portella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Casalena"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica99",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Coloto Novo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica1",
+          "entity": {
+            "type": "evento",
+            "text": "pascali"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica2",
+          "entity": {
+            "type": "persona",
+            "text": "Pyrromi de Amelia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica2",
+          "entity": {
+            "type": "evento",
+            "text": "festa del venardì sancto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica6",
+          "entity": {
+            "type": "persona",
+            "text": "carmorlingho"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica11",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "terra de Arquata"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Forcia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Patregnone"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Porchia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Cosignano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Castegnano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica12",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Rotella"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Rovetino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica22",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Castorano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "porta de lu Monte"
+          }
+        },
+        {
+          "doc_id": "statPop_libro2_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "Torrecelle et Tornasacco"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica1",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lu comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica2",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica20",
+          "entity": {
+            "type": "luogo",
+            "text": "fiumo de Chiaro"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica37",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de sopra"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica42",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de lu sopra de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica44",
+          "entity": {
+            "type": "luogo",
+            "text": "rivo de lu Marino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica49",
+          "entity": {
+            "type": "luogo",
+            "text": "monasterio de Sancto Antonio"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "fiume de Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica65",
+          "entity": {
+            "type": "luogo",
+            "text": "fiume de Trunto"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica68",
+          "entity": {
+            "type": "persona",
+            "text": "Angnelo de Martino"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica75",
+          "entity": {
+            "type": "luogo",
+            "text": "contrata de Palarecta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica90",
+          "entity": {
+            "type": "luogo",
+            "text": "bagno de l'Acquasanta"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "Quintodecimo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica5",
+          "entity": {
+            "type": "luogo",
+            "text": "sextero de lu Capo de le chiaviche"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica18",
+          "entity": {
+            "type": "luogo",
+            "text": "anticha plaza de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica25",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço del comune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica25",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica25",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo del commune"
+          }
+        },
+        {
+          "doc_id": "statPop_libro4_rubrica25",
+          "entity": {
+            "type": "luogo",
+            "text": "de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "palazo de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica10",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de lu populo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica14",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Cosignano"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica14",
+          "entity": {
+            "type": "luogo",
+            "text": "castello de Porchia"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica21",
+          "entity": {
+            "type": "luogo",
+            "text": "piaza de sopra"
+          }
+        },
+        {
+          "doc_id": "statPop_libro5_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "palaço de la residentia de li signuri antiani"
+          }
+        }
+      ]
+    }
+  }
+}

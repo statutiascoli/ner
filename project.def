@@ -1,0 +1,17 @@
+Bootstrap: docker
+From: python:3.12-slim
+
+%files
+    requirements.txt /workspace/requirements.txt
+
+%post
+    mkdir -p /workspace
+    apt-get update && apt-get install -y build-essential
+    python -m pip install --upgrade pip
+    pip install -r /workspace/requirements.txt
+    echo "Apptainer build complete."
+
+%environment
+    export PYTHONUNBUFFERED=1
+    export CUBLAS_WORKSPACE_CONFIG=:4096:8
+
