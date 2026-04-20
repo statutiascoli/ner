@@ -63,7 +63,7 @@ def compute_prf(tp, fp, fn):
     p = tp / (tp + fp) if (tp + fp) > 0 else 0.0
     r = tp / (tp + fn) if (tp + fn) > 0 else 0.0
     f = 2 * p * r / (p + r) if (p + r) > 0 else 0.0
-    return p, r, f
+    return round(p, 3), round(r, 3), round(f, 3)
 
 
 def evaluate_exact(paired_data):
