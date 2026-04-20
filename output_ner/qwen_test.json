@@ -3,35 +3,35 @@
     "micro": {
       "persona": {
         "precision": 0.42857142857142855,
-        "recall": 0.625,
-        "f1": 0.5084745762711864,
+        "recall": 0.6818181818181818,
+        "f1": 0.5263157894736843,
         "tp": 15,
         "fp": 20,
-        "fn": 9
+        "fn": 7
       },
       "luogo": {
-        "precision": 0.2976878612716763,
-        "recall": 0.3259493670886076,
-        "f1": 0.311178247734139,
-        "tp": 103,
-        "fp": 243,
-        "fn": 213
+        "precision": 0.315028901734104,
+        "recall": 0.3343558282208589,
+        "f1": 0.324404761904762,
+        "tp": 109,
+        "fp": 237,
+        "fn": 217
       },
       "evento": {
-        "precision": 0.3448275862068966,
-        "recall": 0.38461538461538464,
-        "f1": 0.3636363636363637,
-        "tp": 50,
-        "fp": 95,
+        "precision": 0.35172413793103446,
+        "recall": 0.3893129770992366,
+        "f1": 0.3695652173913043,
+        "tp": 51,
+        "fp": 94,
         "fn": 80
       },
       "overall": {
-        "precision": 0.3193916349809886,
-        "recall": 0.3574468085106383,
-        "f1": 0.3373493975903614,
-        "tp": 168,
-        "fp": 358,
-        "fn": 302
+        "precision": 0.33269961977186313,
+        "recall": 0.3653444676409186,
+        "f1": 0.34825870646766166,
+        "tp": 175,
+        "fp": 351,
+        "fn": 304
       }
     },
     "errors": {
@@ -62,13 +62,6 @@
           "entity": {
             "type": "luogo",
             "text": "lu dicto castello"
-          }
-        },
-        {
-          "doc_id": "statCom_libro2_rubrica40",
-          "entity": {
-            "type": "evento",
-            "text": "festa de la venerabile et sancta Spina"
           }
         },
         {
@@ -160,20 +153,6 @@
           "entity": {
             "type": "luogo",
             "text": "lu libro de le reformanze"
-          }
-        },
-        {
-          "doc_id": "statCom_libro3_rubrica31",
-          "entity": {
-            "type": "luogo",
-            "text": "Guallo"
-          }
-        },
-        {
-          "doc_id": "statCom_libro3_rubrica31",
-          "entity": {
-            "type": "luogo",
-            "text": "Larhenqua"
           }
         },
         {
@@ -874,13 +853,6 @@
           "entity": {
             "type": "evento",
             "text": "Sancto Emidio"
-          }
-        },
-        {
-          "doc_id": "statPop_libro1_rubrica23",
-          "entity": {
-            "type": "luogo",
-            "text": "Sancta Maria inter vigna"
           }
         },
         {
@@ -1671,13 +1643,6 @@
           "doc_id": "statPop_libro2_rubrica6",
           "entity": {
             "type": "luogo",
-            "text": "porta Romana"
-          }
-        },
-        {
-          "doc_id": "statPop_libro2_rubrica6",
-          "entity": {
-            "type": "luogo",
             "text": "lu arrengho"
           }
         },
@@ -2062,13 +2027,6 @@
         {
           "doc_id": "statPop_libro3_rubrica49",
           "entity": {
-            "type": "luogo",
-            "text": "Paregnano"
-          }
-        },
-        {
-          "doc_id": "statPop_libro3_rubrica49",
-          "entity": {
             "type": "evento",
             "text": "Sancto Antonio"
           }
@@ -2274,13 +2232,6 @@
           "entity": {
             "type": "luogo",
             "text": "lu Pede de le chiaviche"
-          }
-        },
-        {
-          "doc_id": "statPop_libro3_rubrica76",
-          "entity": {
-            "type": "luogo",
-            "text": "Lisiano"
           }
         },
         {
@@ -3357,13 +3308,6 @@
           }
         },
         {
-          "doc_id": "statCom_libro4_rubrica24",
-          "entity": {
-            "type": "persona",
-            "text": "potestate"
-          }
-        },
-        {
           "doc_id": "statPop_libro1_rubrica1",
           "entity": {
             "type": "luogo",
@@ -3427,13 +3371,6 @@
           }
         },
         {
-          "doc_id": "statPop_libro1_rubrica3",
-          "entity": {
-            "type": "luogo",
-            "text": "palazo"
-          }
-        },
-        {
           "doc_id": "statPop_libro1_rubrica4",
           "entity": {
             "type": "luogo",
@@ -3494,6 +3431,20 @@
           "entity": {
             "type": "luogo",
             "text": "palazo de li signuri antiani"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "quartero de Sancto Venanzo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "quartero de Sancto Jacobo"
           }
         },
         {
@@ -4101,13 +4052,6 @@
         {
           "doc_id": "statPop_libro2_rubrica6",
           "entity": {
-            "type": "persona",
-            "text": "carmorlingho"
-          }
-        },
-        {
-          "doc_id": "statPop_libro2_rubrica6",
-          "entity": {
             "type": "luogo",
             "text": "ecclesia majore"
           }
@@ -4463,6 +4407,20 @@
           }
         },
         {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "sexteri de lu Capo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "Pede de le chiaviche"
+          }
+        },
+        {
           "doc_id": "statPop_libro3_rubrica78",
           "entity": {
             "type": "luogo",
@@ -4481,6 +4439,13 @@
           "entity": {
             "type": "luogo",
             "text": "Quintodecimo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "Rosara"
           }
         },
         {
@@ -4665,35 +4630,35 @@
     "micro": {
       "persona": {
         "precision": 0.5142857142857142,
-        "recall": 0.75,
-        "f1": 0.6101694915254237,
+        "recall": 0.8181818181818182,
+        "f1": 0.6315789473684209,
         "tp": 18,
         "fp": 17,
-        "fn": 6
+        "fn": 4
       },
       "luogo": {
-        "precision": 0.5867052023121387,
-        "recall": 0.6424050632911392,
-        "f1": 0.6132930513595166,
-        "tp": 203,
-        "fp": 143,
-        "fn": 113
+        "precision": 0.6069364161849711,
+        "recall": 0.6441717791411042,
+        "f1": 0.625,
+        "tp": 210,
+        "fp": 136,
+        "fn": 116
       },
       "evento": {
-        "precision": 0.6896551724137931,
-        "recall": 0.7692307692307693,
-        "f1": 0.7272727272727274,
-        "tp": 100,
-        "fp": 45,
+        "precision": 0.696551724137931,
+        "recall": 0.7709923664122137,
+        "f1": 0.7318840579710145,
+        "tp": 101,
+        "fp": 44,
         "fn": 30
       },
       "overall": {
-        "precision": 0.6102661596958175,
-        "recall": 0.6829787234042554,
-        "f1": 0.6445783132530121,
-        "tp": 321,
-        "fp": 205,
-        "fn": 149
+        "precision": 0.6254752851711026,
+        "recall": 0.6868475991649269,
+        "f1": 0.6547263681592039,
+        "tp": 329,
+        "fp": 197,
+        "fn": 150
       }
     },
     "errors": {
@@ -4724,13 +4689,6 @@
           "entity": {
             "type": "luogo",
             "text": "lu dicto castello"
-          }
-        },
-        {
-          "doc_id": "statCom_libro2_rubrica40",
-          "entity": {
-            "type": "evento",
-            "text": "festa de la venerabile et sancta Spina"
           }
         },
         {
@@ -4794,20 +4752,6 @@
           "entity": {
             "type": "luogo",
             "text": "lu libro de le reformanze"
-          }
-        },
-        {
-          "doc_id": "statCom_libro3_rubrica31",
-          "entity": {
-            "type": "luogo",
-            "text": "Guallo"
-          }
-        },
-        {
-          "doc_id": "statCom_libro3_rubrica31",
-          "entity": {
-            "type": "luogo",
-            "text": "Larhenqua"
           }
         },
         {
@@ -5137,13 +5081,6 @@
           "entity": {
             "type": "luogo",
             "text": "Ecclesia"
-          }
-        },
-        {
-          "doc_id": "statPop_libro1_rubrica23",
-          "entity": {
-            "type": "luogo",
-            "text": "Sancta Maria inter vigna"
           }
         },
         {
@@ -5535,13 +5472,6 @@
           "doc_id": "statPop_libro2_rubrica6",
           "entity": {
             "type": "luogo",
-            "text": "porta Romana"
-          }
-        },
-        {
-          "doc_id": "statPop_libro2_rubrica6",
-          "entity": {
-            "type": "luogo",
             "text": "lu arrengho"
           }
         },
@@ -5800,13 +5730,6 @@
         {
           "doc_id": "statPop_libro3_rubrica49",
           "entity": {
-            "type": "luogo",
-            "text": "Paregnano"
-          }
-        },
-        {
-          "doc_id": "statPop_libro3_rubrica49",
-          "entity": {
             "type": "evento",
             "text": "Sancto Antonio"
           }
@@ -5949,20 +5872,6 @@
           "entity": {
             "type": "luogo",
             "text": "Ponte de rivo"
-          }
-        },
-        {
-          "doc_id": "statPop_libro3_rubrica76",
-          "entity": {
-            "type": "luogo",
-            "text": "lu Pede de le chiaviche"
-          }
-        },
-        {
-          "doc_id": "statPop_libro3_rubrica76",
-          "entity": {
-            "type": "luogo",
-            "text": "Lisiano"
           }
         },
         {
@@ -6633,13 +6542,6 @@
           }
         },
         {
-          "doc_id": "statCom_libro4_rubrica24",
-          "entity": {
-            "type": "persona",
-            "text": "potestate"
-          }
-        },
-        {
           "doc_id": "statPop_libro1_rubrica2",
           "entity": {
             "type": "persona",
@@ -6658,13 +6560,6 @@
           "entity": {
             "type": "luogo",
             "text": "quartero de Sancto Emindio"
-          }
-        },
-        {
-          "doc_id": "statPop_libro1_rubrica3",
-          "entity": {
-            "type": "luogo",
-            "text": "palazo"
           }
         },
         {
@@ -6693,6 +6588,20 @@
           "entity": {
             "type": "luogo",
             "text": "palazo de li signuri antiani"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "quartero de Sancto Venanzo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro1_rubrica23",
+          "entity": {
+            "type": "luogo",
+            "text": "quartero de Sancto Jacobo"
           }
         },
         {
@@ -6906,13 +6815,6 @@
           }
         },
         {
-          "doc_id": "statPop_libro2_rubrica6",
-          "entity": {
-            "type": "persona",
-            "text": "carmorlingho"
-          }
-        },
-        {
           "doc_id": "statPop_libro2_rubrica11",
           "entity": {
             "type": "luogo",
@@ -7074,6 +6976,13 @@
           }
         },
         {
+          "doc_id": "statPop_libro3_rubrica76",
+          "entity": {
+            "type": "luogo",
+            "text": "sexteri de lu Capo"
+          }
+        },
+        {
           "doc_id": "statPop_libro3_rubrica90",
           "entity": {
             "type": "luogo",
@@ -7085,6 +6994,13 @@
           "entity": {
             "type": "luogo",
             "text": "Quintodecimo"
+          }
+        },
+        {
+          "doc_id": "statPop_libro3_rubrica94",
+          "entity": {
+            "type": "luogo",
+            "text": "Rosara"
           }
         },
         {
